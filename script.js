@@ -69,6 +69,7 @@ function movePlayer(){
     }
     player.moving = true;
   }
+  console.log("Held down keys: " + keys + "\n" + "Player X: " + player.x + "\n" + "Player Y: " + player.y);
 }
 
 function handlePlayerFrame(){
@@ -107,4 +108,4 @@ function animate(){
     handlePlayerFrame();
   }
 }
-startAnimation(24);
+startAnimation(16);
